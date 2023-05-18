@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title >Stopwatch & Timer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-color: rgb(134, 138, 182);">
+  <h1 style="background-color: rgb(172, 186, 136);">Stopwatch & Timer</h1>
+  <div id="stopwatch">
+    <h2 style="background-color: rgb(115, 183, 183);" >Stopwatch</h2>
+    <div id="stopwatchDisplay">00:00:00</div>
+    <button onclick="startStopwatch()"  style="color:rgb(13, 218, 10)">Start</button>
+    <button onclick="stopStopwatch()" style="color:rgb(168, 23, 23)">Stop</button>
+    <button onclick="resetStopwatch()" style="color:rgb(164, 98, 168)">Reset</button>
+  </div>
+  <div id="timer">
+    <h2 style="background-color: rgb(115, 183, 183);">Timer</h2>
+    <input type="text" id="timerInput" placeholder="HH:MM:SS">
+    <button onclick="startTimer()"  style="color:rgb(13, 218, 10)">Start</button>
+    <button onclick="stopTimer()" style="color:brown">Stop</button>
+    <button onclick="resetTimer()"  style="color:rgb(164, 98, 168)">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
